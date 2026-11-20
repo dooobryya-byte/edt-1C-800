@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5837dfd-1fe9-421e-b249-d6e08f04ea00">
+  <producedTypes>
+    <managerType typeId="7643fb2c-0c8b-4c6b-b68b-47de3168b44d" valueTypeId="38bb67c2-7730-4d2e-82d3-592ffc337bb6"/>
+    <valueManagerType typeId="cf50255a-bbdd-494a-b428-49f2795531f0" valueTypeId="b928ed21-ddcb-4e18-a1bc-70fa1fffc261"/>
+    <valueKeyType typeId="324babb0-9040-41f7-b5e2-914f23dd7cad" valueTypeId="021edeae-7401-44af-9714-245af579295f"/>
+  </producedTypes>
+  <name>ОргРуководительФИО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Орг руководитель ФИО</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b74b7d10-0849-45f5-9bdc-11c91664cec8">
+  <producedTypes>
+    <managerType typeId="61127480-eea6-4cf3-8a3f-328b2241637a" valueTypeId="2cd28d06-9d51-4356-9c2c-e56761c84834"/>
+    <valueManagerType typeId="c98e339b-8fbe-4816-a4f9-5c1d0209376c" valueTypeId="71fce1cd-8039-421c-9c61-26154f923218"/>
+    <valueKeyType typeId="cf504d53-0fd6-4267-ae8a-c696412308af" valueTypeId="48573d05-115e-4f82-915d-c4c77b57310a"/>
+  </producedTypes>
+  <name>ОргОКВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Орг ОКВЭД</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>20</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

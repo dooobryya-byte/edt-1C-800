@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ef14fab-3b8a-4e59-870d-ac343f6b3a07">
+  <name>ТорговоеПредприятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шмаков АВ 1С программист ОФ 1С-800 (выпускная аттестационная работа)</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="96ced3de-17d8-42b2-a66c-c443403b7651"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f4626d62-7459-455e-98d3-a25cc3133d77"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="dc8c0b9c-1030-4fdf-994e-b6b8e54a6b2e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d26cf5f4-eb5e-44c6-83a6-cde210b2a5d2"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6d6b0ba9-025f-4d09-8815-ea365fff2f15"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9195a0d0-087b-46d9-ac3d-3526037fb268"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c6f79622-dc49-4de6-8045-35fd616f667c"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultStyle>Style.НастроениеСиний</defaultStyle>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="7b7b577e-8505-4679-ba4d-a4502c0cf866">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ВалютныйОтдел</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <styles>Style.НастроениеЗеленый</styles>
+  <styles>Style.НастроениеСиний</styles>
+  <commonPictures>CommonPicture.Внимание</commonPictures>
+  <commonPictures>CommonPicture.Ошибка</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка6</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка7</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка8</commonPictures>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Пользователь</roles>
+  <commonTemplates>CommonTemplate.КарточкаПредприятия</commonTemplates>
+  <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСДокументамиСервер</commonModules>
+  <httpServices>HTTPService.ВалютыСервис</httpServices>
+  <constants>Constant.ОргОсновнаяВалюта</constants>
+  <constants>Constant.ОсновнаяОрганизация</constants>
+  <constants>Constant.ОргНаименование</constants>
+  <constants>Constant.ОргНаименованиеСокращенное</constants>
+  <constants>Constant.ОргЮрАдрес</constants>
+  <constants>Constant.ОргПочтовыйАдрес</constants>
+  <constants>Constant.ОргРасчетныйСчет</constants>
+  <constants>Constant.ОргКоррСчет</constants>
+  <constants>Constant.ОргРуководительФИО</constants>
+  <constants>Constant.ОргРуководительДолжность</constants>
+  <constants>Constant.ОргИНН</constants>
+  <constants>Constant.ОргКПП</constants>
+  <constants>Constant.ОргОГРН</constants>
+  <constants>Constant.ОргОКВЭД</constants>
+  <constants>Constant.ОргОКПО</constants>
+  <constants>Constant.ОргОКАТО</constants>
+  <constants>Constant.ОргВебСайт</constants>
+  <constants>Constant.ОргТелефон</constants>
+  <constants>Constant.ОргЭлПочта</constants>
+  <commonForms>CommonForm.НастройкаПараметров</commonForms>
+  <commonForms>CommonForm.ВыборПериода</commonForms>
+  <commonForms>CommonForm.ВыборСтандартногоПериодаДень</commonForms>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <documents>Document.ПродажаВалюты</documents>
+  <documentJournals>DocumentJournal.ОбщийЖурнал</documentJournals>
+  <reports>Report.КурсыВалют</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаКурсовВалют</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+</mdclass:Configuration>

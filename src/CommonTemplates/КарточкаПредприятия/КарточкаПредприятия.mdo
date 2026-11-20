@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2258c4e1-ea66-46c1-87a9-471fb39f2869">
+  <name>КарточкаПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карточка предприятия</value>
+  </synonym>
+</mdclass:CommonTemplate>

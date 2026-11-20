@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c99c6170-12c2-441d-89e3-c2e60ff0e358">
+  <name>ВалютныйОтдел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валютный отдел</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка6</picture>
+  </picture>
+  <content>Document.ПродажаВалюты</content>
+  <content>Report.КурсыВалют</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>CommonPicture.ОбщаяКартинка6</content>
+  <content>DocumentJournal.ОбщийЖурнал</content>
+  <content>DataProcessor.ЗагрузкаКурсовВалют</content>
+</mdclass:Subsystem>

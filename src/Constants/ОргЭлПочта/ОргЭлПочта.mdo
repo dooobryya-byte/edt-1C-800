@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26afaebb-c70b-4060-b93c-ec7139d1ca87">
+  <producedTypes>
+    <managerType typeId="76085cb4-fccd-4fe7-9db3-c347df5da929" valueTypeId="cea9f300-b0bb-48bc-b508-0098c2c4caa6"/>
+    <valueManagerType typeId="ad8ab47e-4ae2-414b-92ee-8d7b4fafe7c2" valueTypeId="eb8bd528-11f0-4fd1-9c81-5a090b726524"/>
+    <valueKeyType typeId="740ef895-5a2d-4ca2-8cff-eeab89899b7e" valueTypeId="56740be1-7651-46f8-b544-e7438b058535"/>
+  </producedTypes>
+  <name>ОргЭлПочта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Орг электронная почта</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,12 @@
+# Сборка EDT
+bin/
+*.class
+
+# Служебное Eclipse
+.metadata/
+.settings/org.eclipse.core.resources.prefs
+
+# Мусор ОС и логи
+.DS_Store
+Thumbs.db
+*.log

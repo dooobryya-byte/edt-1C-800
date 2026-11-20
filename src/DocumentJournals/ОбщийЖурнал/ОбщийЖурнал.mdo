@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="404e6b3a-3a09-43bf-be5c-5009c82b52e5">
+  <producedTypes>
+    <selectionType typeId="5d125a69-3600-4069-9570-4b8446930ff1" valueTypeId="d962b6f4-74ac-47fb-a672-3658f46073f0"/>
+    <listType typeId="eb14ee68-66dd-4321-84df-2670dec49186" valueTypeId="c96798ef-3627-49ef-a372-b9074aed4cda"/>
+    <managerType typeId="39074e56-9c2c-404e-b685-cdc7351b54c4" valueTypeId="9b83ca73-fa25-423b-b6c0-1b21459d459e"/>
+  </producedTypes>
+  <name>ОбщийЖурнал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий журнал</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ОбщийЖурнал.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПродажаВалюты</registeredDocuments>
+  <columns uuid="4ece835e-506e-407c-af35-aea2b2a7417b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ПродажаВалюты.Attribute.Организация</references>
+  </columns>
+  <columns uuid="83fb9485-1c19-47fe-965c-1ce714527f62">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <references>Document.ПродажаВалюты.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="c4ac4bb3-4617-42e7-b26f-a25fe3a7cd6d">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПродажаВалюты.Attribute.Контрагент</references>
+  </columns>
+  <forms uuid="d3173658-3f33-49c9-be3a-84ef36fe82f1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

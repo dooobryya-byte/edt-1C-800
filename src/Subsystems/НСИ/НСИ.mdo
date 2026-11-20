@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a37a8eaf-31fc-4b2a-8d95-19aba9ad5fdc">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка8</picture>
+  </picture>
+  <content>CommonForm.НастройкаПараметров</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Организации</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>Catalog.Контрагенты</content>
+  <content>DataProcessor.КонсольЗапросов</content>
+</mdclass:Subsystem>

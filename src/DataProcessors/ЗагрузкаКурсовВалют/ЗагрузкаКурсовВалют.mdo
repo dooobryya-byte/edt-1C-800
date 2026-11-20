@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b827f09a-ba6f-43d7-a837-b395c5a5414e">
+  <producedTypes>
+    <objectType typeId="e1453cd0-d7cd-436f-bfce-653e9314bb09" valueTypeId="4603a09c-c60f-4917-a822-441ae244e30a"/>
+    <managerType typeId="e7a9c50c-f65b-4d08-b79d-afd61edb7515" valueTypeId="647b8ee4-eb58-4b0f-b51d-664995bbcf3e"/>
+  </producedTypes>
+  <name>ЗагрузкаКурсовВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка курсов валют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКурсовВалют.Form.ФормаЗагрузкаКурсовВалютЦБР</defaultForm>
+  <attributes uuid="fc9198a2-ca77-44cc-949f-43ce51f5e7f0">
+    <name>ДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата нач</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="6b6663e2-75cc-4140-ad65-89cb6de51b7a">
+    <name>ДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата кон</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="7f625ebf-19cf-4d6c-b046-4228ce356e61">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b0a2acf0-4b0a-43f4-8082-7a4803c6eb5c">
+    <name>ФормаЗагрузкаКурсовВалютЦБР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузка курсов валют ЦБР</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
